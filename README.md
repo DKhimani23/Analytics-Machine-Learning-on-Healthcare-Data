@@ -1,6 +1,8 @@
 # Data Analytics & Machine Learning on Healthcare Data
 
-The project involved comprehensive **data preparation**, **classification**, **regression**, and **clustering** techniques using Python, focused on healthcare data to uncover meaningful patterns and improve predictive accuracy.
+### **_see attached PDF for the full write-up report_**
+
+The project involved comprehensive **data preparation**, **classification**, **regression**, and **clustering** techniques using Python, focused on healthcare data to uncover meaningful patterns such as likelihood of experiencing a stroke based on health indicators (e.g. heart disease, diabetes, high BMI).
 
 ---
 
@@ -22,7 +24,7 @@ Applied 6 classifiers and compared performance using metrics like precision, rec
 - Logistic Regression  
 - AdaBoost  
 
-📌 Best Performer: **Naïve Bayes** (96.4% accuracy, AUC: 0.964)
+📌 Best Performer: **Naïve Bayes** (96.4% accuracy, AUC: 0.964) - In other words, the Naive Bayes classifier was about to predict instances of patient stroke based on health indicators (heart disease, diabetes, high BMI, a smoker, and high blood pressure) with 96% accuracy. 
 
 ### 3. Regression (Target: BMI)
 Evaluated 4 regression models using MAE, MSE, RMSE, R²:
@@ -31,7 +33,7 @@ Evaluated 4 regression models using MAE, MSE, RMSE, R²:
 - K-Nearest Neighbour Regression  
 - Support Vector Regression  
 
-📌 Best Performer: **KNN Regression** (MAE: 2.87, R²: 0.31)
+📌 Best Performer: **KNN Regression** (MAE: 2.87, R²: 0.31) - The KNN regressor was able to predict instances of patient BMI being high with the least error. 
 
 ### 4. Clustering
 Unsupervised learning to explore health condition patterns:
